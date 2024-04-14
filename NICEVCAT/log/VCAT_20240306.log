@@ -1,0 +1,563 @@
+[20240306 00:17:59 833] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 00:17:59 848] [000000] [POSSEND          ] [0027VCAT    0015ReaderPortOpen]
+[20240306 00:18:00 197] [000000] [CheckProc        ] [ReaderPortOpen]
+[20240306 00:18:00 433] [000000] [RECVMSG          ] [0012VCAT00000000]
+[20240306 00:18:00 438] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 00:18:32 176] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 00:18:32 179] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 00:18:32 180] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 00:19:04 947] [000000] [ReaderInfo       ] [#####NR-5500K002]
+[20240306 00:19:04 950] [000000] [LockDisuse       ] [N]
+[20240306 00:19:04 950] [000000] [MultiReaderInfo  ] [Start]
+[20240306 00:19:04 951] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 00:19:04 951] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 00:19:26 400] [000000] [RECVMSG          ] [0012VCAT00150000]
+[20240306 00:19:26 401] [000000] [PostResponse     ] [HttpSendResponseEntityBody Fail]
+[20240306 00:19:26 401] [000000] [result           ] [995]
+[20240306 00:19:26 402] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 00:19:26 402] [000000] [DoReceive        ] [result != NO_ERROR]
+[20240306 00:19:26 402] [000000] [DoReceive        ] [for End]
+[20240306 00:19:26 403] [000000] [DoReceive        ] [DoReceiveRequests End]
+[20240306 00:19:26 403] [000000] [AcceptFunc_AJAX  ] [DoReceiveRequests End]
+[20240306 00:19:26 403] [000000] [AcceptFunc_AJAX  ] [CleanUp Start]
+[20240306 00:19:26 404] [000000] [AcceptFunc_AJAX  ] [HttpRemoveUrl Start]
+[20240306 00:19:26 405] [000000] [AcceptFunc_AJAX  ] [HttpRemoveUrl End]
+[20240306 00:19:26 406] [000000] [AcceptFunc_AJAX  ] [HttpTerminate]
+[20240306 00:19:26 407] [000000] [cDoResult        ] [-1]
+[20240306 00:19:26 407] [000000] [cErrcnt          ] [0]
+[20240306 00:19:26 409] [000000] [AcceptFunc_AJAX  ] [CleanUp End]
+[20240306 00:19:26 409] [000000] [AcceptFunc_AJAX  ] [9188]
+[20240306 00:19:26 410] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240306 00:19:26 410] [000000] [AcceptFunc_AJAX  ] [HttpInitialize Start]
+[20240306 00:19:26 411] [000000] [AcceptFunc_AJAX  ] [HttpInitialize End]
+[20240306 00:19:26 411] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle Start]
+[20240306 00:19:26 411] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle End]
+[20240306 00:19:26 412] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl Start]
+[20240306 00:19:26 413] [000000] [AcceptFunc_AJAX  ] [http://127.0.0.1:9188/]
+[20240306 00:19:26 415] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl End]
+[20240306 00:19:26 415] [000000] [AcceptFunc_AJAX  ] [DoReceiveRequests Start]
+[20240306 00:19:26 416] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240306 00:19:42 541] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 00:19:42 543] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 00:19:42 543] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 00:19:43 757] [000000] [ReaderInfo       ] [#####NR-5500K002]
+[20240306 00:19:43 758] [000000] [LockDisuse       ] [N]
+[20240306 00:19:43 758] [000000] [MultiReaderInfo  ] [Start]
+[20240306 00:19:43 759] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 00:19:43 759] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 00:20:07 985] [000000] [RECVMSG          ] [0012VCAT00150000]
+[20240306 00:20:07 986] [000000] [PostResponse     ] [HttpSendResponseEntityBody Fail]
+[20240306 00:20:07 987] [000000] [result           ] [22]
+[20240306 00:20:07 987] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 00:20:07 987] [000000] [DoReceive        ] [result != NO_ERROR]
+[20240306 00:20:07 988] [000000] [DoReceive        ] [for End]
+[20240306 00:20:07 988] [000000] [DoReceive        ] [DoReceiveRequests End]
+[20240306 00:20:07 988] [000000] [AcceptFunc_AJAX  ] [DoReceiveRequests End]
+[20240306 00:20:07 989] [000000] [AcceptFunc_AJAX  ] [CleanUp Start]
+[20240306 00:20:07 989] [000000] [AcceptFunc_AJAX  ] [HttpRemoveUrl Start]
+[20240306 00:20:07 989] [000000] [AcceptFunc_AJAX  ] [HttpRemoveUrl End]
+[20240306 00:20:07 990] [000000] [AcceptFunc_AJAX  ] [HttpTerminate]
+[20240306 00:20:07 990] [000000] [cDoResult        ] [-1]
+[20240306 00:20:07 990] [000000] [cErrcnt          ] [0]
+[20240306 00:20:07 991] [000000] [AcceptFunc_AJAX  ] [CleanUp End]
+[20240306 00:20:07 992] [000000] [AcceptFunc_AJAX  ] [9188]
+[20240306 00:20:07 993] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240306 00:20:07 993] [000000] [AcceptFunc_AJAX  ] [HttpInitialize Start]
+[20240306 00:20:07 993] [000000] [AcceptFunc_AJAX  ] [HttpInitialize End]
+[20240306 00:20:07 994] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle Start]
+[20240306 00:20:07 994] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle End]
+[20240306 00:20:07 994] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl Start]
+[20240306 00:20:07 995] [000000] [AcceptFunc_AJAX  ] [http://127.0.0.1:9188/]
+[20240306 00:20:07 995] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl End]
+[20240306 00:20:07 996] [000000] [AcceptFunc_AJAX  ] [DoReceiveRequests Start]
+[20240306 00:20:07 996] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240306 00:20:12 691] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 00:20:12 694] [000000] [POSSEND          ] [0027VCAT    0015ReaderPortOpen]
+[20240306 00:20:12 694] [000000] [CheckProc        ] [ReaderPortOpen]
+[20240306 00:20:12 905] [000000] [RECVMSG          ] [0012VCAT00000000]
+[20240306 00:20:12 906] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 00:20:17 627] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 00:20:17 629] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 00:20:17 629] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 00:20:49 628] [000000] [RECVMSG          ] [0012VCAT00150000]
+[20240306 00:20:49 629] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 13:34:21 150] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 13:34:21 160] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 13:34:21 163] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 13:34:53 430] [000000] [RECVMSG          ] [0012VCAT00150000]
+[20240306 13:34:53 432] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 13:34:59 456] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 13:34:59 459] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 13:34:59 460] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 13:35:31 660] [000000] [RECVMSG          ] [0012VCAT00150000]
+[20240306 13:35:31 661] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 13:35:38 140] [000000] [ReaderInfo       ] [#####NR-5500K002]
+[20240306 13:35:38 142] [000000] [LockDisuse       ] [N]
+[20240306 13:35:38 142] [000000] [MultiReaderInfo  ] [Start]
+[20240306 13:35:38 144] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 13:35:38 145] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 13:37:41 801] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 13:37:41 805] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 13:37:41 806] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 13:38:13 987] [000000] [RECVMSG          ] [0012VCAT00150000]
+[20240306 13:38:13 988] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 13:44:33 546] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 13:44:33 548] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 13:44:33 549] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 13:45:05 706] [000000] [RECVMSG          ] [0012VCAT00150000]
+[20240306 13:45:05 708] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 13:45:10 370] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 13:45:10 372] [000000] [POSSEND          ] [0020VCAT    0008RESTART]
+[20240306 13:45:10 372] [000000] [CheckProc        ] [RESTART]
+[20240306 13:45:15 523] [000000] [NICECATDlg       ] [OninitDialog]
+[20240306 13:45:15 524] [000000] [setFileToReg     ] [START]
+[20240306 13:45:15 538] [000000] [setFileToReg     ] [END]
+[20240306 13:45:15 694] [000000] [FileToDllReg     ] [START]
+[20240306 13:45:15 696] [000000] [FileToDllReg     ] [SetEnv]
+[20240306 13:45:15 703] [000000] [FileToDllReg     ] [Set_SvrInfo]
+[20240306 13:45:15 710] [000000] [FileToDllReg     ] [END]
+[20240306 13:45:15 857] [000000] [SetEnv           ] [OnCreate]
+[20240306 13:45:18 064] [000000] [ReaderInfo(1)    ] [#####NR-5500K002]
+[20240306 13:45:18 064] [000000] [LockDisuse       ] [N]
+[20240306 13:45:18 065] [000000] [MultiReaderInfo  ] [Start]
+[20240306 13:45:18 066] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 13:45:18 066] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 13:45:18 792] [000000] [ThreadServer     ] [AcceptFunc_AJAX Call!]
+[20240306 13:45:18 793] [000000] [AcceptFunc_AJAX  ] [Start]
+[20240306 13:45:18 794] [000000] [AcceptFunc_AJAX  ] [9188]
+[20240306 13:45:18 794] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240306 13:45:18 794] [000000] [AcceptFunc_AJAX  ] [HttpInitialize Start]
+[20240306 13:45:18 795] [000000] [AcceptFunc_AJAX  ] [HttpInitialize End]
+[20240306 13:45:18 795] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle Start]
+[20240306 13:45:18 795] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle End]
+[20240306 13:45:18 796] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl Start]
+[20240306 13:45:18 796] [000000] [AcceptFunc_AJAX  ] [http://127.0.0.1:9188/]
+[20240306 13:45:18 796] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl End]
+[20240306 13:45:18 797] [000000] [AcceptFunc_AJAX  ] [DoReceiveRequests Start]
+[20240306 13:45:18 797] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240306 13:45:19 798] [000000] [AcceptFunc_AJAX2 ] [Start]
+[20240306 13:45:19 799] [000000] [AcceptFunc_AJAX2 ] [RegOpenKeyEx Start!]
+[20240306 13:45:19 799] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240306 13:45:19 800] [000000] [AcceptFunc_AJAX2 ] [HttpInitialize Start]
+[20240306 13:45:19 800] [000000] [AcceptFunc_AJAX2 ] [HttpInitialize End]
+[20240306 13:45:19 800] [000000] [AcceptFunc_AJAX2 ] [HttpCreateHttpHandle Start]
+[20240306 13:45:19 801] [000000] [AcceptFunc_AJAX2 ] [HttpCreateHttpHandle End]
+[20240306 13:45:19 801] [000000] [AcceptFunc_AJAX2 ] [HttpAddUrl Start]
+[20240306 13:45:19 801] [000000] [AcceptFunc_AJAX2 ] [http://127.0.0.1:9189/]
+[20240306 13:45:19 803] [000000] [AcceptFunc_AJAX2 ] [HttpAddUrl End]
+[20240306 13:45:19 803] [000000] [AcceptFunc_AJAX2 ] [DoReceiveRequests Start]
+[20240306 13:45:19 803] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240306 13:45:24 780] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 13:45:24 782] [000000] [POSSEND          ] [0027VCAT    0015ReaderPortOpen]
+[20240306 13:45:24 838] [000000] [CheckProc        ] [ReaderPortOpen]
+[20240306 13:45:25 044] [000000] [RECVMSG          ] [0012VCAT00000000]
+[20240306 13:45:25 046] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 13:45:33 690] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 13:45:33 692] [000000] [POSSEND          ] [0044VCAT    0032Set_SvrInfo10.222.141.1008101]
+[20240306 13:45:33 693] [000000] [CheckProc        ] [Set_SvrInfo]
+[20240306 13:45:33 700] [000000] [RECVMSG          ] [0012VCAT00000000]
+[20240306 13:45:33 702] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 13:45:40 407] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 13:45:40 409] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 13:45:40 409] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 13:46:14 187] [000000] [RECVMSG          ] [0012VCAT00150000]
+[20240306 13:46:14 189] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 13:52:10 218] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 13:52:10 223] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 13:52:10 223] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 13:52:42 352] [000000] [RECVMSG          ] [0012VCAT00150000]
+[20240306 13:52:42 354] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 13:54:00 297] [000000] [NICECATDlg       ] [OninitDialog]
+[20240306 13:54:00 298] [000000] [setFileToReg     ] [START]
+[20240306 13:54:00 317] [000000] [setFileToReg     ] [END]
+[20240306 13:54:00 478] [000000] [FileToDllReg     ] [START]
+[20240306 13:54:00 480] [000000] [FileToDllReg     ] [SetEnv]
+[20240306 13:54:00 486] [000000] [FileToDllReg     ] [Set_SvrInfo]
+[20240306 13:54:00 491] [000000] [FileToDllReg     ] [END]
+[20240306 13:54:00 508] [000000] [SetEnv           ] [OnCreate]
+[20240306 13:54:02 461] [000000] [ReaderInfo(1)    ] [#####NR-5500K002]
+[20240306 13:54:02 462] [000000] [LockDisuse       ] [N]
+[20240306 13:54:02 462] [000000] [MultiReaderInfo  ] [Start]
+[20240306 13:54:02 463] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 13:54:02 463] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 13:54:03 136] [000000] [ThreadServer     ] [AcceptFunc_AJAX Call!]
+[20240306 13:54:03 137] [000000] [AcceptFunc_AJAX  ] [Start]
+[20240306 13:54:03 138] [000000] [AcceptFunc_AJAX  ] [9188]
+[20240306 13:54:03 138] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240306 13:54:03 138] [000000] [AcceptFunc_AJAX  ] [HttpInitialize Start]
+[20240306 13:54:03 139] [000000] [AcceptFunc_AJAX  ] [HttpInitialize End]
+[20240306 13:54:03 139] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle Start]
+[20240306 13:54:03 139] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle End]
+[20240306 13:54:03 140] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl Start]
+[20240306 13:54:03 140] [000000] [AcceptFunc_AJAX  ] [http://127.0.0.1:9188/]
+[20240306 13:54:03 140] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl End]
+[20240306 13:54:03 141] [000000] [AcceptFunc_AJAX  ] [DoReceiveRequests Start]
+[20240306 13:54:03 141] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240306 13:54:04 144] [000000] [AcceptFunc_AJAX2 ] [Start]
+[20240306 13:54:04 146] [000000] [AcceptFunc_AJAX2 ] [RegOpenKeyEx Start!]
+[20240306 13:54:04 150] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240306 13:54:04 152] [000000] [AcceptFunc_AJAX2 ] [HttpInitialize Start]
+[20240306 13:54:04 154] [000000] [AcceptFunc_AJAX2 ] [HttpInitialize End]
+[20240306 13:54:04 157] [000000] [AcceptFunc_AJAX2 ] [HttpCreateHttpHandle Start]
+[20240306 13:54:04 160] [000000] [AcceptFunc_AJAX2 ] [HttpCreateHttpHandle End]
+[20240306 13:54:04 162] [000000] [AcceptFunc_AJAX2 ] [HttpAddUrl Start]
+[20240306 13:54:04 165] [000000] [AcceptFunc_AJAX2 ] [http://127.0.0.1:9189/]
+[20240306 13:54:04 168] [000000] [AcceptFunc_AJAX2 ] [HttpAddUrl End]
+[20240306 13:54:04 170] [000000] [AcceptFunc_AJAX2 ] [DoReceiveRequests Start]
+[20240306 13:54:04 173] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240306 14:00:54 861] [000000] [ReaderInfo       ] [#####NR-5500K002]
+[20240306 14:00:54 866] [000000] [LockDisuse       ] [N]
+[20240306 14:00:54 866] [000000] [MultiReaderInfo  ] [Start]
+[20240306 14:00:54 866] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 14:00:54 867] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 14:02:05 012] [000000] [ReaderInfo       ] [#####NR-5500K002]
+[20240306 14:02:05 029] [000000] [LockDisuse       ] [N]
+[20240306 14:02:05 030] [000000] [MultiReaderInfo  ] [Start]
+[20240306 14:02:05 032] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 14:02:05 033] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 14:03:22 502] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:03:22 506] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 14:03:22 522] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:03:26 983] [000000] [RECVMSG          ] [0520VCAT00000508021010797900000000100400000000000000000000000000                        07신한카드                                                 3195189001         나이스체크                              미등록가맹점                                                            46195410******** 31951890010306140322NS240306140325D83740       IC                                                                            HPSH14089673734                                                   ]
+[20240306 14:03:26 985] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:15:16 976] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:15:16 990] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 14:15:16 992] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:15:22 237] [000000] [RECVMSG          ] [0520VCAT00000508021010797900000000100400000000000000000000000000                        07신한카드                                                 3195189001         나이스체크                              미등록가맹점                                                            46195410******** 31951890010306141517NS240306141520D84235       IC                                                                            HPSH14089673734                                                   ]
+[20240306 14:15:22 240] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:16:09 818] [000000] [ReaderInfo       ] [#####NR-5500K002]
+[20240306 14:16:09 826] [000000] [LockDisuse       ] [N]
+[20240306 14:16:09 828] [000000] [MultiReaderInfo  ] [Start]
+[20240306 14:16:09 829] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 14:16:09 831] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 14:16:35 188] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:16:35 194] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 14:16:35 195] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:16:37 088] [000000] [RECVMSG          ] [0520VCAT00000508021010757500000000100400000000000000000000000000                        07신한카드                                                 3195189001         카드사                                  미등록가맹점                                                            46195410******** 31951890010306141635NS240306141635106694       IC                                                                            HPSH14089673734                                                   ]
+[20240306 14:16:37 090] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:16:56 612] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:16:56 619] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 14:16:56 620] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:16:59 273] [000000] [RECVMSG          ] [0520VCAT00000508021010757500000000100400000000000000000000000000                        07신한카드                                                 3195189001         카드사                                  미등록가맹점                                                            46195410******** 31951890010306141656NS240306141657261201       IC                                                                            HPSH14089673734                                                   ]
+[20240306 14:16:59 276] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:18:05 482] [000000] [가맹점다운로드   ] [에이스독서실                      ]
+[20240306 14:18:05 483] [000000] [가맹점다운로드   ] [인천 부평구 충선로 174상록빌딩 5층 전체           ]
+[20240306 14:18:11 575] [000000] [ReaderInfo       ] [#####NR-5500K002]
+[20240306 14:18:11 590] [000000] [LockDisuse       ] [N]
+[20240306 14:18:11 591] [000000] [MultiReaderInfo  ] [Start]
+[20240306 14:18:11 592] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 14:18:11 593] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 14:18:52 479] [000000] [가맹점다운로드   ] [채널1실 테스트                    ]
+[20240306 14:18:52 483] [000000] [가맹점다운로드   ] [서울특별시 영등포구 은행로 17 (여의도동)3층 모바일]
+[20240306 14:18:57 196] [000000] [ReaderInfo       ] [#####NR-5500K002]
+[20240306 14:18:57 213] [000000] [LockDisuse       ] [N]
+[20240306 14:18:57 214] [000000] [MultiReaderInfo  ] [Start]
+[20240306 14:18:57 218] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 14:18:57 220] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 14:23:53 447] [000000] [ReaderInfo       ] [#####NR-5500K002]
+[20240306 14:23:53 450] [000000] [LockDisuse       ] [N]
+[20240306 14:23:53 451] [000000] [MultiReaderInfo  ] [Start]
+[20240306 14:23:53 452] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240306 14:23:53 452] [000000] [MultiReaderInfo  ] [Finish]
+[20240306 14:24:00 616] [000000] [가맹점다운로드   ] [에이스독서실                      ]
+[20240306 14:24:00 617] [000000] [가맹점다운로드   ] [인천 부평구 충선로 174상록빌딩 5층 전체           ]
+[20240306 14:36:18 148] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:36:18 154] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 14:36:18 155] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:36:23 692] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000010040000000000000000000000000027400142    24030614362107신한카드            07신한카드            0105275218     3195189001          IC카드 정상승인 27400142                                                                                       46195410********131951890010306143618NS240306143621168953       IC                                                                            HPSH14089673734                             0661416803243         ]
+[20240306 14:36:23 694] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:42:30 397] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:42:30 399] [000000] [POSSEND          ] [0061VCAT    0049NICEVCAT042010C10000002205020]
+[20240306 14:42:30 400] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:42:36 370] [000000] [RECVMSG          ] [0520VCAT00000508043030666600000000010000000000000000000000000000                        07신한카드            07신한카드            0105275218     3195189001         취소불가                                승인내역확인요                                                          46195410******** 31951890010306144230NS240306144234120349       IC                                                                            HPSH14089673734                                                   ]
+[20240306 14:42:36 373] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:43:17 473] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:43:17 475] [000000] [POSSEND          ] [0061VCAT    0049NICEVCAT042010C10000002205020]
+[20240306 14:43:17 475] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:43:19 371] [000000] [RECVMSG          ] [0520VCAT00000508043030666600000000010000000000000000000000000000                        07신한카드            07신한카드            0105275218     3195189001         취소불가                                승인내역확인요                                                          46195410******** 31951890010306144317NS240306144317126353       IC                                                                            HPSH14089673734                                                   ]
+[20240306 14:43:19 373] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:44:27 195] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:44:27 198] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 14:44:27 198] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:44:29 485] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000010040000000000000000000000000027488601    24030614442707신한카드            07신한카드            0105275218     3195189001          IC카드 정상승인 27488601                                                                                       46195410********131951890010306144427NS240306144427241114       IC                                                                            HPSH14089673734                             0661416973763         ]
+[20240306 14:44:29 487] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:44:41 994] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:44:41 996] [000000] [POSSEND          ] [0062VCAT    0050NICEVCAT042010C100000002205020]
+[20240306 14:44:41 997] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:44:44 516] [000000] [RECVMSG          ] [0520VCAT00000508043030666600000000100000000000000000000000000000                        07신한카드            07신한카드            0105275218     3195189001         취소불가                                승인내역확인요                                                          46195410******** 31951890010306144442NS240306144442138075       IC                                                                            HPSH14089673734                                                   ]
+[20240306 14:44:44 519] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:45:09 016] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:45:09 018] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10000000]
+[20240306 14:45:09 018] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:45:30 985] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000010000000000000000000000000000027504682    24030614452907신한카드            07신한카드            0105275218     3195189001          IC카드 정상승인 27504682                                                                                       46195410********131951890010306144509NS240306144529251662                                                                                     HPSH14089673734                             0661416994753         ]
+[20240306 14:45:30 987] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 14:45:55 993] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 14:45:55 995] [000000] [POSSEND          ] [0062VCAT    0050NICEVCAT042010C100000002205020]
+[20240306 14:45:55 995] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 14:45:59 752] [000000] [RECVMSG          ] [0520VCAT00000508043030666600000000100000000000000000000000000000                        07신한카드            07신한카드            0105275218     3195189001         취소불가                                승인내역확인요                                                          46195410******** 31951890010306144556NS240306144558256624       IC                                                                            HPSH14089673734                                                   ]
+[20240306 14:45:59 754] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:30:04 625] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:30:04 642] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:30:04 645] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:30:04 662] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:30:04 669] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:30:35 155] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:30:35 159] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:30:35 160] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:30:35 172] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:30:35 175] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:30:59 364] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:30:59 367] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:30:59 373] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:30:59 386] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:30:59 388] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:32:41 243] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:32:41 246] [000000] [POSSEND          ] [0055VCAT    0043NICEVCAT020010C10040000]
+[20240306 18:32:41 246] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:32:44 313] [000000] [RECVMSG          ] [0012VCAT00070000]
+[20240306 18:32:44 314] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:45:43 229] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:45:43 241] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C10000]
+[20240306 18:45:43 241] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:45:47 274] [000000] [RECVMSG          ] [0012VCAT00070000]
+[20240306 18:45:47 278] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:27 460] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:27 464] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:27 464] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:27 472] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:27 474] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:28 956] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:28 958] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:28 959] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:28 969] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:28 971] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:30 180] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:30 182] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:30 182] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:30 191] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:30 192] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:30 931] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:30 933] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:30 933] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:30 940] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:30 942] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:31 131] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:31 132] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:31 133] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:31 141] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:31 142] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:31 314] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:31 316] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:31 316] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:31 323] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:31 326] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:31 493] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:31 495] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:31 496] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:31 505] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:31 505] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:31 677] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:31 679] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:31 680] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:31 687] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:31 689] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:31 872] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:31 874] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:31 875] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:31 885] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:31 887] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:50:32 065] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:50:32 067] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:50:32 067] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:50:32 076] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:50:32 079] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:51:46 741] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:51:46 744] [000000] [POSSEND          ] [0053VCAT    0041NICEVCAT020010C110000]
+[20240306 18:51:46 744] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:51:49 126] [000000] [RECVMSG          ] [0012VCAT00070000]
+[20240306 18:51:49 127] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:55:57 721] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:55:57 724] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:55:57 726] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:55:57 737] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:55:57 739] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:01 075] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:01 077] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:01 078] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:01 093] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:01 095] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:01 723] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:01 726] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:01 727] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:01 742] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:01 744] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:01 931] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:01 935] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:01 935] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:01 949] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:01 950] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:02 101] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:02 104] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:02 104] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:02 116] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:02 118] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:02 248] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:02 251] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:02 251] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:02 262] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:02 264] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:02 436] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:02 438] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:02 438] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:02 452] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:02 453] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:02 605] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:02 606] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:02 607] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:02 619] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:02 621] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:02 777] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:02 778] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:02 780] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:02 794] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:02 795] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:02 943] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:02 946] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:02 948] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:02 961] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:02 963] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:10 890] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:10 896] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:10 897] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:10 906] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:10 908] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:50 229] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:50 232] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:50 233] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:50 242] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:50 244] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:51 876] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:51 878] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:51 878] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:51 887] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:51 889] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:53 050] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:53 053] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:53 053] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:53 061] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:53 061] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:53 409] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:53 412] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:53 414] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:53 424] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:53 425] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:53 633] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:53 635] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:53 635] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:53 642] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:53 643] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:53 834] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:53 836] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:53 836] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:53 843] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:53 845] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:56:54 347] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:56:54 350] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:56:54 351] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:56:54 358] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:56:54 360] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:57:15 028] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:57:15 030] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:57:15 031] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:57:15 038] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:57:15 040] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:57:16 225] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:57:16 227] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:57:16 227] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:57:16 235] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:57:16 237] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:57:34 519] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:57:34 521] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:57:34 522] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:57:34 529] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:57:34 531] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:57:35 719] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:57:35 721] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:57:35 722] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:57:35 729] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:57:35 731] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:58:14 248] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:58:14 250] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:58:14 255] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:58:14 263] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:58:14 264] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:58:32 107] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:58:32 109] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:58:32 110] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:58:32 118] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:58:32 120] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:58:36 282] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:58:36 284] [000000] [POSSEND          ] [0051VCAT    0039NICEVCAT020010C0000]
+[20240306 18:58:36 285] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:58:36 292] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 18:58:36 293] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 18:59:08 340] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 18:59:08 341] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C10000]
+[20240306 18:59:08 342] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 18:59:10 403] [000000] [RECVMSG          ] [0012VCAT00070000]
+[20240306 18:59:10 405] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:00:07 772] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:00:07 774] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C00000]
+[20240306 19:00:07 774] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:00:07 783] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 19:00:07 785] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:00:09 501] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:00:09 503] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C00000]
+[20240306 19:00:09 503] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:00:09 511] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 19:00:09 513] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:00:10 340] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:00:10 342] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C00000]
+[20240306 19:00:10 342] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:00:10 353] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 19:00:10 354] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:00:10 732] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:00:10 734] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C00000]
+[20240306 19:00:10 734] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:00:10 742] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 19:00:10 744] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:00:11 163] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:00:11 167] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C00000]
+[20240306 19:00:11 167] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:00:11 174] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 19:00:11 176] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:00:11 499] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:00:11 501] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C00000]
+[20240306 19:00:11 501] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:00:11 508] [000000] [RECVMSG          ] [0012VCAT00020000]
+[20240306 19:00:11 510] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:00:27 973] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:00:27 976] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C10000]
+[20240306 19:00:27 976] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:00:30 026] [000000] [RECVMSG          ] [0012VCAT00070000]
+[20240306 19:00:30 028] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:03:42 314] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:03:42 316] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C10000]
+[20240306 19:03:42 316] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:03:44 328] [000000] [RECVMSG          ] [0012VCAT00070000]
+[20240306 19:03:44 330] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:05:21 354] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:05:21 356] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C10000]
+[20240306 19:05:21 357] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:05:23 694] [000000] [RECVMSG          ] [0012VCAT00070000]
+[20240306 19:05:23 696] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:06:52 507] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:06:52 513] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C10000]
+[20240306 19:06:52 515] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:06:54 831] [000000] [RECVMSG          ] [0012VCAT00070000]
+[20240306 19:06:54 833] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240306 19:08:33 531] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240306 19:08:33 538] [000000] [POSSEND          ] [0052VCAT    0040NICEVCAT020010C10000]
+[20240306 19:08:33 539] [000000] [CheckProc        ] [NICEVCAT]
+[20240306 19:08:37 789] [000000] [RECVMSG          ] [0520VCAT00000508021010800800000000000100000000000000000000000000                        29하나카드            03하나카드            00987135860    3195189001         거래거절                                거래금액미달                                                            51184500******** 31951890010306190833NS240306190837271661       IC                                                                            HPSH14089673734                                                   ]
+[20240306 19:08:37 791] [000000] [DoReceive        ] [=== POST HTTP END   ===]

@@ -1,0 +1,136 @@
+[20240410 12:57:32 633] [000000] [NICECATDlg       ] [OninitDialog]
+[20240410 12:57:32 637] [000000] [setFileToReg     ] [START]
+[20240410 12:57:32 675] [000000] [setFileToReg     ] [END]
+[20240410 12:57:33 191] [000000] [FileToDllReg     ] [START]
+[20240410 12:57:33 360] [000000] [FileToDllReg     ] [SetEnv]
+[20240410 12:57:33 938] [000000] [FileToDllReg     ] [Set_SvrInfo]
+[20240410 12:57:35 014] [000000] [FileToDllReg     ] [END]
+[20240410 12:57:36 056] [000000] [SetEnv           ] [OnCreate]
+[20240410 12:57:50 789] [000000] [ReaderInfo(1)    ] [#####NR-5500K002]
+[20240410 12:57:51 105] [000000] [LockDisuse       ] [N]
+[20240410 12:57:51 648] [000000] [MultiReaderInfo  ] [Start]
+[20240410 12:57:51 662] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240410 12:57:51 879] [000000] [MultiReaderInfo  ] [Finish]
+[20240410 12:57:54 020] [000000] [ThreadServer     ] [AcceptFunc_AJAX Call!]
+[20240410 12:57:54 112] [000000] [AcceptFunc_AJAX  ] [Start]
+[20240410 12:57:54 219] [000000] [AcceptFunc_AJAX  ] [9188]
+[20240410 12:57:54 250] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240410 12:57:54 316] [000000] [AcceptFunc_AJAX  ] [HttpInitialize Start]
+[20240410 12:57:54 396] [000000] [AcceptFunc_AJAX  ] [HttpInitialize End]
+[20240410 12:57:54 410] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle Start]
+[20240410 12:57:54 473] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle End]
+[20240410 12:57:54 488] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl Start]
+[20240410 12:57:54 502] [000000] [AcceptFunc_AJAX  ] [http://127.0.0.1:9188/]
+[20240410 12:57:54 530] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl End]
+[20240410 12:57:54 545] [000000] [AcceptFunc_AJAX  ] [DoReceiveRequests Start]
+[20240410 12:57:54 561] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240410 12:57:55 079] [000000] [AcceptFunc_AJAX2 ] [Start]
+[20240410 12:57:55 188] [000000] [AcceptFunc_AJAX2 ] [RegOpenKeyEx Start!]
+[20240410 12:57:55 247] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240410 12:57:55 336] [000000] [AcceptFunc_AJAX2 ] [HttpInitialize Start]
+[20240410 12:57:55 382] [000000] [AcceptFunc_AJAX2 ] [HttpInitialize End]
+[20240410 12:57:55 425] [000000] [AcceptFunc_AJAX2 ] [HttpCreateHttpHandle Start]
+[20240410 12:57:55 508] [000000] [AcceptFunc_AJAX2 ] [HttpCreateHttpHandle End]
+[20240410 12:57:55 565] [000000] [AcceptFunc_AJAX2 ] [HttpAddUrl Start]
+[20240410 12:57:55 601] [000000] [AcceptFunc_AJAX2 ] [http://127.0.0.1:9189/]
+[20240410 12:57:55 623] [000000] [AcceptFunc_AJAX2 ] [HttpAddUrl End]
+[20240410 12:57:55 684] [000000] [AcceptFunc_AJAX2 ] [DoReceiveRequests Start]
+[20240410 12:57:55 748] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240410 13:19:06 083] [000000] [NICECATDlg       ] [OninitDialog]
+[20240410 13:19:06 111] [000000] [setFileToReg     ] [START]
+[20240410 13:19:06 131] [000000] [setFileToReg     ] [END]
+[20240410 13:19:06 516] [000000] [FileToDllReg     ] [START]
+[20240410 13:19:06 546] [000000] [FileToDllReg     ] [SetEnv]
+[20240410 13:19:06 644] [000000] [FileToDllReg     ] [Set_SvrInfo]
+[20240410 13:19:06 904] [000000] [FileToDllReg     ] [END]
+[20240410 13:19:07 387] [000000] [SetEnv           ] [OnCreate]
+[20240410 13:19:13 476] [000000] [ReaderInfo(1)    ] [#####NR-5500K002]
+[20240410 13:19:13 487] [000000] [LockDisuse       ] [N]
+[20240410 13:19:13 497] [000000] [MultiReaderInfo  ] [Start]
+[20240410 13:19:13 508] [000000] [MultiReaderInfo  ] [READERTYPE : [01], MultiReaderUse : [N], READERCNT : [0], PORTNUM : [0], PORTBAUDRATE : [0]]
+[20240410 13:19:13 519] [000000] [MultiReaderInfo  ] [Finish]
+[20240410 13:19:14 213] [000000] [ThreadServer     ] [AcceptFunc_AJAX Call!]
+[20240410 13:19:14 292] [000000] [AcceptFunc_AJAX  ] [Start]
+[20240410 13:19:14 334] [000000] [AcceptFunc_AJAX  ] [9188]
+[20240410 13:19:14 357] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240410 13:19:14 370] [000000] [AcceptFunc_AJAX  ] [HttpInitialize Start]
+[20240410 13:19:14 382] [000000] [AcceptFunc_AJAX  ] [HttpInitialize End]
+[20240410 13:19:14 401] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle Start]
+[20240410 13:19:14 421] [000000] [AcceptFunc_AJAX  ] [HttpCreateHttpHandle End]
+[20240410 13:19:14 436] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl Start]
+[20240410 13:19:14 448] [000000] [AcceptFunc_AJAX  ] [http://127.0.0.1:9188/]
+[20240410 13:19:14 464] [000000] [AcceptFunc_AJAX  ] [HttpAddUrl End]
+[20240410 13:19:14 474] [000000] [AcceptFunc_AJAX  ] [DoReceiveRequests Start]
+[20240410 13:19:14 485] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240410 13:19:15 273] [000000] [AcceptFunc_AJAX2 ] [Start]
+[20240410 13:19:15 303] [000000] [AcceptFunc_AJAX2 ] [RegOpenKeyEx Start!]
+[20240410 13:19:15 317] [000000] [OnInitDialog     ] [RegQueryValueEx Fail - ServerPortAjax]
+[20240410 13:19:15 335] [000000] [AcceptFunc_AJAX2 ] [HttpInitialize Start]
+[20240410 13:19:15 346] [000000] [AcceptFunc_AJAX2 ] [HttpInitialize End]
+[20240410 13:19:15 362] [000000] [AcceptFunc_AJAX2 ] [HttpCreateHttpHandle Start]
+[20240410 13:19:15 398] [000000] [AcceptFunc_AJAX2 ] [HttpCreateHttpHandle End]
+[20240410 13:19:15 455] [000000] [AcceptFunc_AJAX2 ] [HttpAddUrl Start]
+[20240410 13:19:15 466] [000000] [AcceptFunc_AJAX2 ] [http://127.0.0.1:9189/]
+[20240410 13:19:15 482] [000000] [AcceptFunc_AJAX2 ] [HttpAddUrl End]
+[20240410 13:19:15 497] [000000] [AcceptFunc_AJAX2 ] [DoReceiveRequests Start]
+[20240410 13:19:15 508] [000000] [DoReceive        ] [DoReceiveRequests Start]
+[20240410 14:13:34 405] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 14:13:34 425] [000000] [POSSEND          ] [0074VCAT    0062NICEVCAT020010C1000003ì‹œê°„,1,10,feeType]
+[20240410 14:13:34 692] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 14:13:49 098] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000100000000000000000000000000034643375    24041014134607½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 34643375                                                                                       46195410********131951890010410141334NS240410141346298841       IC                                                                            HPSH14089673734                             1011414834673         ]
+[20240410 14:13:49 102] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 15:00:42 625] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 15:00:42 627] [000000] [POSSEND          ] [0072VCAT    0060NICEVCAT020010C500005-day,5,5,fixedType]
+[20240410 15:00:42 639] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 15:00:49 346] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000050000000000000000000000000035337629    24041015004707½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 35337629                                                                                       46195410********131951890010410150042NS240410150047106772       IC                                                                            HPSH14089673734                             1011515983603         ]
+[20240410 15:00:49 348] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 15:01:27 074] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 15:01:27 076] [000000] [POSSEND          ] [0074VCAT    0062NICEVCAT020010C1000003ì‹œê°„,1,10,feeType]
+[20240410 15:01:27 091] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 15:01:32 564] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000100000000000000000000000000035348742    24041015013007½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 35348742                                                                                       46195410********131951890010410150127NS240410150130113872       IC                                                                            HPSH14089673734                             1011516001653         ]
+[20240410 15:01:32 566] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 15:12:43 212] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 15:12:43 214] [000000] [POSSEND          ] [0073VCAT    0061NICEVCAT020010C300004- day,4,3,fixedType]
+[20240410 15:12:43 225] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 15:12:49 405] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000030000000000000000000000000035521654    24041015124707½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 35521654                                                                                       46195410********131951890010410151243NS240410151247122113       IC                                                                            HPSH14089673734                             1011516269063         ]
+[20240410 15:12:49 408] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 15:13:20 970] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 15:13:20 971] [000000] [POSSEND          ] [0074VCAT    0062NICEVCAT020010C1000003ì‹œê°„,1,10,feeType]
+[20240410 15:13:20 983] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 15:13:27 565] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000100000000000000000000000000035530019    24041015132507½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 35530019                                                                                       46195410********131951890010410151321NS240410151325289761       IC                                                                            HPSH14089673734                             1011516284873         ]
+[20240410 15:13:27 568] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 16:39:52 410] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 16:39:52 424] [000000] [POSSEND          ] [0073VCAT    0061NICEVCAT020010C300004- day,4,3,fixedType]
+[20240410 16:39:52 434] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 16:39:57 729] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000030000000000000000000000000036731084    24041016395507½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 36731084                                                                                       46195410********131951890010410163952NS240410163955250904       IC                                                                            HPSH14089673734                             1011618268813         ]
+[20240410 16:39:57 731] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 16:40:39 633] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 16:40:39 635] [000000] [POSSEND          ] [0081VCAT    0069NICEVCAT020010C9400000009-day,14,94000,fixedType]
+[20240410 16:40:39 652] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 16:40:45 279] [000000] [RECVMSG          ] [0012VCAT00070000]
+[20240410 16:40:45 280] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 16:40:53 427] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 16:40:53 429] [000000] [POSSEND          ] [0074VCAT    0062NICEVCAT020010C1000003ì‹œê°„,1,10,feeType]
+[20240410 16:40:53 438] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 16:40:58 153] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000100000000000000000000000000036747116    24041016405607½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 36747116                                                                                       46195410********131951890010410164053NS240410164056261905       IC                                                                            HPSH14089673734                             1011618291693         ]
+[20240410 16:40:58 155] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 16:41:35 833] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 16:41:35 835] [000000] [POSSEND          ] [0074VCAT    0062NICEVCAT020010C300002-dayday,2,3,daysType]
+[20240410 16:41:35 847] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 16:41:42 314] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000030000000000000000000000000036752852    24041016414007½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 36752852                                                                                       46195410********131951890010410164135NS240410164140269874       IC                                                                            HPSH14089673734                             1011618307833         ]
+[20240410 16:41:42 316] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 16:42:25 133] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 16:42:25 135] [000000] [POSSEND          ] [0073VCAT    0061NICEVCAT020010C300004- day,4,3,fixedType]
+[20240410 16:42:25 150] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 16:42:32 138] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000030000000000000000000000000036758418    24041016423007½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 36758418                                                                                       46195410********131951890010410164225NS240410164230278729       IC                                                                            HPSH14089673734                             1011618325623         ]
+[20240410 16:42:32 140] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 17:31:11 004] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 17:31:11 007] [000000] [POSSEND          ] [0074VCAT    0062NICEVCAT020010C1000003ì‹œê°„,1,10,feeType]
+[20240410 17:31:11 022] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 17:31:16 241] [000000] [RECVMSG          ] [0012VCAT00080000]
+[20240410 17:31:16 243] [000000] [DoReceive        ] [=== POST HTTP END   ===]
+[20240410 17:31:21 877] [000000] [DoReceive        ] [=== POST HTTP START ===]
+[20240410 17:31:21 878] [000000] [POSSEND          ] [0074VCAT    0062NICEVCAT020010C1000003ì‹œê°„,1,10,feeType]
+[20240410 17:31:21 888] [000000] [CheckProc        ] [NICEVCAT]
+[20240410 17:31:25 751] [000000] [RECVMSG          ] [0520VCAT0000050802101000000000000000100000000000000000000000000037443297    24041017312407½ÅÇÑÄ«µå            07½ÅÇÑÄ«µå            0105275218     3195189001          ICÄ«µå Á¤»ó½ÂÀÎ 37443297                                                                                       46195410********131951890010410173122NS240410173124125613       IC                                                                            HPSH14089673734                             1011719479903         ]
+[20240410 17:31:25 753] [000000] [DoReceive        ] [=== POST HTTP END   ===]

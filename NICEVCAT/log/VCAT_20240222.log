@@ -1,0 +1,6 @@
+[20240222 13:51:20 184] [000000] [NICECATDlg       ] [OninitDialog]
+[20240222 13:51:20 194] [000000] [setFileToReg     ] [START]
+[20240222 13:51:20 223] [000000] [setFileToReg     ] [END]
+[20240222 13:51:21 334] [000000] [FileToDllReg     ] [START]
+[20240222 13:51:21 347] [000000] [FileToDllReg     ] [END]
+[20240222 13:51:21 792] [000000] [SetEnv           ] [OnCreate]

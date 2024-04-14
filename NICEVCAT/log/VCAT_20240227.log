@@ -1,0 +1,8 @@
+[20240227 16:54:58 368] [000000] [NICECATDlg       ] [OninitDialog]
+[20240227 16:54:58 369] [000000] [setFileToReg     ] [START]
+[20240227 16:54:58 392] [000000] [setFileToReg     ] [END]
+[20240227 16:54:58 603] [000000] [FileToDllReg     ] [START]
+[20240227 16:54:58 605] [000000] [FileToDllReg     ] [SetEnv]
+[20240227 16:54:58 615] [000000] [FileToDllReg     ] [Set_SvrInfo]
+[20240227 16:54:58 624] [000000] [FileToDllReg     ] [END]
+[20240227 16:54:58 771] [000000] [SetEnv           ] [OnCreate]
